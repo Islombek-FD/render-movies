@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fa/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Films Render</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="search__engine">
+            <div class="input__wrapper">
+                <input class="film__search-input" type="search" placeholder="Search films .....">
+                <i class="search__icon fas fa-search"></i>
+            </div>
+            
+            <select class="film__types-select">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+            </select>
+        </div>
+        
+        <ul class="films__list"></ul>
+        <div class="btn__group"></div>
+        
+    </div>
+    
+    
+    
+    <template class="film__template">
+        
+        <li class="film__item">
+            
+            <h3 class="film__heading">Shazam</h3>
+            
+            <img class="film__img" src="https://via.placeholder.com/150C/O https://placeholder.com/" 
+            alt="Film image" width="100" height="100">
+            
+            <button class="film__more-btn" type="button">More</button>
+            <button class="film__bookmark-btn" type="button">Bookmark</button>
+            
+        </li>
+        
+    </template>
+    
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
